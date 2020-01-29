@@ -1,0 +1,219 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}  
+
+.navigation-bar {
+	display: inline;
+	float: right;
+	margin-top: 5px;
+	margin-right: 25px;
+	font-family: 'Oxygen', sans-serif;
+	font: black;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+.content-wrap {
+	background-color: white;
+}
+
+.content-wrap-two {
+		background-color: #ADDDCE;
+		font-family: 'Anonymous Pro', monospace;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+}
+
+.yeseva-one {
+	font-family: 'Yeseva One', cursive;
+	font-size: 50px;
+}
+
+
+
+/* PHOTOGRAPHY */
+
+.photolist {
+	display: grid;
+	grid-template-columns: repeat(auto, minmax(100px, 5fr));
+	grid-auto-rows: 100px;
+	grid-auto-flow: dense;
+
+}
+
+li:nth-child(3) {
+	grid-row: span 6;
+}
+
+li:nth-child(4) {
+	grid-row: span 2;
+}
+
+li:nth-child(5) {
+	grid-column: span 4;
+	grid-row: span 4;
+}
+
+.photo-one {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-two {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-three {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-four {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+.photo-five {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-six {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-seven {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-eight {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-nine {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-ten {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-eleven {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-twelve {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-thirteen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-fourteen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-fifteen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-sixteen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-seventeen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-eighteen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-nineteen {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+.photo-twenty {
+	width: 30%;
+	height: 30%;
+	padding: 1.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
