@@ -230,7 +230,7 @@ a:active {
 	height: 750px;
 	padding-top: 30px;
 	padding-left: 225px;
-	padding-right: 350px;
+
 	padding-bottom: 30px;
 	grid-column: 1;
 	
@@ -239,14 +239,16 @@ a:active {
 .education-content {
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
-	margin-left: 725px;
 	margin-right: 230px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	grid-column: 2;
 }
 
 .education-grid {
 	background-color: #c3e7f0;
 	font-family: 'Montserrat', sans-serif;
+	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
