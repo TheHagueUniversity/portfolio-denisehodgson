@@ -231,9 +231,32 @@ a:active {
 	
 }
 
+.cmd {
+	font-family: 'Yeseva One', cursive;
+ 	font-size: 30px;
+ 	text-align: left;
+ 	line-height: 30px;
+
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+}
+
+.thuas {
+	padding-left: 52px;
+	padding-bottom: 10px;
+}
+
+.colegio {
+	padding-bottom: 10px;
+}
+
 .education-content {
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+ 	line-height: 25px;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
 	margin-right: 230px;
 	margin-top: 30px;
 	margin-bottom: 30px;
