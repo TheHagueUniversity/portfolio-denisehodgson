@@ -251,7 +251,7 @@ a:active {
 /* ------------------ PROJECTS ----------------- */
  
  .projects-grid {
- 	background-color: yellow;
+ 	background-color: #FFDAB9;
  	font-family: 'Montserrat', sans-serif;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -348,11 +348,24 @@ img {
 }
 
 
-.container {
-	font-family: 'Montserrat', sans-serif;
-	border-radius: 5px;
+
+
+
+
+.jive {
+	width: 400px;
+	height: 500px;
+	padding: 100px;
+}
+
+
+/* -------------- CONTACT ---------------- */
+
+.contact-grid {
 	background-color: #FFBFA3;
-	padding: 20px;
+ 	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 input[type=text], select, textarea {
@@ -365,18 +378,22 @@ input[type=text], select, textarea {
 	margin-bottom: 16px;
 	resize: vertical;
 }
-
-.jive {
-	width: 400px;
-	height: 500px;
-	padding: 100px;
+.contact-container {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	padding: 20px;
+	margin-left: 225px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
-
-
-
-
-
+.contact-image {
+	width: 500px;
+	height: 750px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
 
 
 
