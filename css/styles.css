@@ -204,7 +204,7 @@ a:active {
 	position: relative;
 	width: calc(400px - 30px);
 	height: calc(300px - 30px);
-	background: white;
+	background: orange;
 	float: left;
 	margin: 15px;
 	box-sizing: border-box;
@@ -257,6 +257,46 @@ a:active {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
  }
+
+ .project-headers {
+ 	font-family: 'Yeseva One', cursive;
+ 	font-size: 40px;
+ 	text-align: center;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+}
+
+.project-content {
+	text-align: left;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.view-hallmark {
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 30px;
+}
+
+.view-projects {
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-top: 30px;
+
+}
+
+.view-programming {
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-top: 70px;
+}
 
  .photography-image {
  	width: 500px;
@@ -381,7 +421,7 @@ input[type=text], select, textarea {
 .contact-container {
 	font-family: 'Montserrat', sans-serif;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	margin-left: 225px;
 	margin-bottom: 30px;
 	margin-top: 30px;
