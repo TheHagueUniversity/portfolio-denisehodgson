@@ -408,7 +408,7 @@ a:active {
 	grid-auto-flow: dense;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 }
 
 img {
@@ -624,13 +624,16 @@ input[type=text], select, textarea {
 	padding-top: 30px;
 }
 
-.footer {
-	font-family: 'Yeseva One', cursive;
-	background-color: black;
-	color: white;
+.footer-wrap {
+	background-color: white;
 	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Yeseva One', cursive;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	
 }
-
 
 
 
