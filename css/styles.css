@@ -468,6 +468,67 @@ img {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+/* -------------- PROGRAMMING ----------------*/
+
+.programming-grid {
+	background-color: #5F9EA0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.programming-text {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	background-color: white;
+	margin-right: 200px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+.crossy-video {
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.crossy-road {
+	width: 500px;
+	height: 500px;
+}
+
+.bubbles-text {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	background-color: white;
+	margin-left: 200px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.bubbles-box {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	margin-right: 200px;
+	margin-bottom: 30px;
+}
+
+.bubbles-video {
+	width: 500px;
+	height: 500px;
+}
 /* -------------- CONTACT ---------------- */
 
 .contact-grid {
