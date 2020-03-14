@@ -99,6 +99,41 @@ a:active {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.denisehodgson {
+	width: 500px;
+	height: 250px;
+	margin-top: 75px;
+	grid-column: auto / span 2;
+	grid-row: auto / span 2;
+}
+
+.giphy {
+	width: 350px;
+	height: 500px;
+	grid-row: auto / span 2;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: 350px;
+}
+
+.giphytwo {
+	width: 350px;
+	height: 500px;
+	padding-right: 300px;
+	margin-left: 30px;
+	margin-right: 60px;
+	margin-top: 300px;
+	margin-bottom: 50px;
+	grid-row: auto / span 2;
+}
+
+.uxdesigner {
+	width: 550px;
+	height: 250px;
+	margin-left: 200px;
+	margin-top: -275px;
+}
+
 .aboutmebg {
 	margin-left: 150px;
 	margin-right: 150px;
@@ -106,7 +141,7 @@ a:active {
 
 
 .content-wrap-two {
-	background-color: #AFEEEE;
+	background-color: #B0E0E6;
 	font-family: 'Montserrat', sans-serif;
 	padding: 50px;
 	line-height: 30px;
@@ -141,38 +176,7 @@ a:active {
 	padding-bottom: 50px;
 }
 
-.denisehodgson {
-	width: 500px;
-	height: 250px;
-	margin-top: 50px;
-	grid-column: auto / span 2;
-	grid-row: auto / span 2;
-}
 
-.giphy {
-	width: 325px;
-	height: 490px;
-	grid-row: auto / span 2;
-	margin-top: 80px;
-	margin-bottom: 50px;
-	margin-left: 350px;
-}
-
-.giphytwo {
-	width: 325px;
-	height: 490px;
-	padding-right: 350px;
-	margin-left: 30px;
-	margin-top: 300px;
-	margin-bottom: 50px;
-	grid-row: auto / span 2;
-}
-
-.uxdesigner {
-	width: 550px;
-	height: 250px;
-	margin-left: 200px;
-}
 
 
 .heading {
@@ -620,6 +624,12 @@ input[type=text], select, textarea {
 	padding-top: 30px;
 }
 
+.footer {
+	font-family: 'Yeseva One', cursive;
+	background-color: black;
+	color: white;
+	padding-top: 30px;
+}
 
 
 
