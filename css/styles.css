@@ -251,7 +251,7 @@ a:active {
 /* ------------------ PROJECTS ----------------- */
  
 .projects-grid {
- 	background-color: #E6E6FA;
+ 	background-color: #D8BFD8;
  	font-family: 'Montserrat', sans-serif;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -531,6 +531,22 @@ img {
 }
 /* -------------- CONTACT ---------------- */
 
+.contact-header {
+	font-family: 'Yeseva One', cursive;
+	color: #FF6347;
+ 	font-size: 60px;
+ 	text-align: center;
+ 	padding-right: 30px;
+ 	padding-bottom: 30px;
+}
+
+.contact-subheader {
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 20px;
+ 	text-align: left;
+ 	padding-right: 30px;
+ 	padding-bottom: 20px;
+}
 .contact-grid {
 	background-color: #FFBFA3;
  	font-family: 'Montserrat', sans-serif;
@@ -552,6 +568,7 @@ input[type=text], select, textarea {
 	font-family: 'Montserrat', sans-serif;
 	background-color: white;
 	padding: 30px;
+	padding-bottom: 50px;
 	margin-left: 225px;
 	margin-bottom: 30px;
 	margin-top: 30px;
@@ -559,7 +576,7 @@ input[type=text], select, textarea {
 
 .contact-image {
 	width: 500px;
-	height: 750px;
+	height: 807px;
 	padding-right: 50px;
 	padding-bottom: 30px;
 	padding-top: 30px;
