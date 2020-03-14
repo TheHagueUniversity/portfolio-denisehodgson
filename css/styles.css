@@ -60,7 +60,6 @@ h2 {
 
 body {
   padding: 0;
-  /*background-image: url(../images/IMG_2667.jpeg);*/
 }  
 
 .navigation-bar {
@@ -92,6 +91,8 @@ a:active {
   text-decoration: underline;
   color: black;
 }
+
+/* ------------ ABOUT ME ------------- */
 
 .content-wrap {
 	background-color: white;
@@ -175,8 +176,6 @@ a:active {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-
-
 
 
 .heading {
@@ -476,13 +475,6 @@ img {
 	grid-template-columns: 1fr 1fr;
 }
 
-/*.hallmark-adobexd {
-	position: absolute;
-	width: 1100px;
-	height: 400px;
-	padding-left: 170px;
-	padding-top: 30px;
-}*/
 
 .hallmark-text {
 	font-family: 'Montserrat', sans-serif;
@@ -624,6 +616,7 @@ input[type=text], select, textarea {
 	padding-top: 30px;
 }
 
+/* --------------- FOOTER -------------- */
 .footer-wrap {
 	background-color: white;
 	padding-top: 30px;
