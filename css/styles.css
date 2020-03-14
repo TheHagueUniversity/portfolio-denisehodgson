@@ -219,10 +219,6 @@ a:active {
 
 }
 
-/*.photographer {
-	width: 600px;
-	height: 600px;
-} */
 
 /* --------------------- EDUCATION -------------------- */
 .graduationgif {
@@ -275,9 +271,51 @@ a:active {
  	background-color: white;
  	margin-right: 250px;
  	margin-top: 30px;
- 	margin-bottom: 163px;
+ 	
  }
 
+ .hallmark-content {
+ 	background-color: white;
+ 	margin-left: 250px;
+ 	margin-top: 30px;
+ }
+
+.hallmark-image {
+	width: 440px;
+	height: 500px;
+	margin-right: 150px;
+	margin-top: 30px;
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.app-image {
+	width: 500px;
+	height: 500px;
+	padding-top: 30px;
+	padding bottom: 30px;
+	margin-left: 250px;
+}
+
+.app-content {
+	background-color: white;
+ 	margin-right: 250px;
+ 	margin-top: 30px;
+}
+
+.processing-content {
+	background-color: white;
+ 	margin-left: 250px;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+}
+
+.processing-image {
+	width: 440px;
+	height: 470px;
+	margin-top: 30px;
+
+}
 
 /* PHOTOGRAPHY */
 
