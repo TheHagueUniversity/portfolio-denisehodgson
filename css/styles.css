@@ -219,10 +219,10 @@ a:active {
 
 }
 
-.photographer {
+/*.photographer {
 	width: 600px;
 	height: 600px;
-}
+} */
 
 /* --------------------- EDUCATION -------------------- */
 .graduationgif {
@@ -230,7 +230,6 @@ a:active {
 	height: 750px;
 	padding-top: 30px;
 	padding-left: 225px;
-
 	padding-bottom: 30px;
 	grid-column: 1;
 	
@@ -254,7 +253,30 @@ a:active {
 
 
 /* ------------------ PROJECTS ----------------- */
+ 
+ .projects-grid {
+ 	background-color: yellow;
+ 	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+ }
 
+ .photography-image {
+ 	width: 500px;
+	height: 500px;
+	padding-top: 30px;
+	padding bottom: 30px;
+	margin-left: 250px;
+	grid-column: 1;
+ }
+
+ .photography-content {
+ 	background-color: white;
+ 	margin-right: 250px;
+ 	margin-top: 30px;
+ 	margin-bottom: 163px;
+ }
 
 
 /* PHOTOGRAPHY */
