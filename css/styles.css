@@ -1,12 +1,72 @@
-html, body {
-  margin: 0;
+/* aquablue: #ADDDCE*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+
+
+/* ------------------------------------------------------------*/
+
+
+
+body {
   padding: 0;
+  /*background-image: url(../images/IMG_2667.jpeg);*/
 }  
 
 .navigation-bar {
 	display: inline;
 	float: right;
-	margin-top: 5px;
+	margin-top: 30px;
 	margin-right: 25px;
 	font-family: 'Oxygen', sans-serif;
 	font: black;
@@ -35,22 +95,161 @@ a:active {
 
 .content-wrap {
 	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.content-wrap-two {
-		background-color: #ADDDCE;
-		font-family: 'Anonymous Pro', monospace;
-		padding-left: 20px;
-		padding-right: 20px;
-		padding-top: 5px;
-		padding-bottom: 5px;
 
+.content-wrap-two {
+	background-color: #ADDDCE;
+	/*font-family: 'Anonymous Pro', monospace;*/
+	font-family: 'Montserrat', sans-serif;
+	padding: 50px;
+	line-height: 30px;
+	margin: 150px;
+}
+
+.content-wrap-three {
+	background-color: #ADDDCE;
+	font-family: 'Montserrat', sans-serif;
+	padding: 50px;
+	line-height: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.content-wrap-four {
+	background-color: #EBC3C1;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.content-wrap-five {
+	background-color: lightblue;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .yeseva-one {
 	font-family: 'Yeseva One', cursive;
-	font-size: 50px;
+	font-size: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
+
+.denisehodgson {
+	width: 500px;
+	height: 250px;
+	margin-top: 50px;
+	grid-column: auto / span 2;
+	grid-row: auto / span 2;
+}
+
+.giphy {
+	width: 325px;
+	height: 490px;
+	grid-row: auto / span 2;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: 350px;
+}
+
+.giphytwo {
+	width: 325px;
+	height: 490px;
+	padding-right: 350px;
+	margin-left: 30px;
+	margin-top: 300px;
+	margin-bottom: 50px;
+	grid-row: auto / span 2;
+}
+
+.uxdesigner {
+	width: 550px;
+	height: 250px;
+	margin-left: 200px;
+}
+
+
+.heading {
+	background-color: white;
+	font-family: 'Yeseva One', cursive;
+	font-size: 60px;
+	padding-top: 100px;
+	padding-bottom: 75px;
+	text-align: center;
+	
+}
+
+.heading-two {
+	background-color: white;
+	font-family: 'Yeseva One', cursive;
+	font-size: 60px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+/* -------------- WORK EXPERIENCE / VOLUNTEER EXPERIENCE --------------- */
+
+
+.container {
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;
+}
+
+.container .box {
+	position: relative;
+	width: calc(400px - 30px);
+	height: calc(300px - 30px);
+	background: white;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.container .box .volunteer-content {
+	font-family: 'Noto Serif', serif;
+	font-size: 20px;
+	font: black;
+
+}
+
+.photographer {
+	width: 600px;
+	height: 600px;
+}
+
+/* --------------------- EDUCATION -------------------- */
+.graduationgif {
+	width: 500px;
+	height: 750px;
+	padding-top: 30px;
+	padding-left: 225px;
+	padding-right: 350px;
+	padding-bottom: 30px;
+	grid-column: 1;
+	
+}
+
+.education-content {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 725px;
+	margin-right: 230px;
+	grid-column: 2;
+}
+
+.education-grid {
+	background-color: #c3e7f0;
+	font-family: 'Montserrat', sans-serif;
+	grid-template-columns: 1fr 1fr;
+}
+
 
 
 
@@ -58,152 +257,56 @@ a:active {
 
 .photolist {
 	display: grid;
-	grid-template-columns: repeat(auto, minmax(100px, 5fr));
-	grid-auto-rows: 100px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
 	grid-auto-flow: dense;
-
-}
-
-li:nth-child(3) {
-	grid-row: span 6;
-}
-
-li:nth-child(4) {
-	grid-row: span 2;
-}
-
-li:nth-child(5) {
-	grid-column: span 4;
-	grid-row: span 4;
-}
-
-.photo-one {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-two {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-three {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-four {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-.photo-five {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-six {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-seven {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-eight {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-nine {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-ten {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-eleven {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-twelve {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-thirteen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-fourteen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-fifteen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-sixteen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-seventeen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-eighteen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-nineteen {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
-}
-
-.photo-twenty {
-	width: 30%;
-	height: 30%;
-	padding: 1.5%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
 }
 
 
 
 
+img {
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
 
 
+.portrait {
+	grid-row: auto / span 2;
+}
+
+.landscape {
+	grid-column: auto / span 2;
+}
 
 
+.container {
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+	background-color: #FFBFA3;
+	padding: 20px;
+}
 
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+.jive {
+	width: 400px;
+	height: 500px;
+	padding: 100px;
+}
 
 
 
